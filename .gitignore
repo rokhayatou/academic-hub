@@ -1,0 +1,5 @@
+venv/
+*.db
+__pycache__/
+main_backup.py
+.DS_Store

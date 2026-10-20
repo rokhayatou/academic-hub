@@ -1,0 +1,101 @@
+{
+  "major": "CS_BS",
+  "requirement_groups": [
+    {
+      "group_name": "Intro to Academics in CS",
+      "type": "fixed",
+      "courses": ["CIS 1001"]
+    },
+    {
+      "group_name": "Intro Programming",
+      "type": "either_or",
+      "courses": ["CIS 1051", "CIS 1057"]
+    },
+    {
+      "group_name": "Program Design and Abstraction",
+      "type": "either_or",
+      "courses": ["CIS 1068", "CIS 1968"]
+    },
+    {
+      "group_name": "Math Concepts in Computing I",
+      "type": "either_or",
+      "courses": ["CIS 1166", "CIS 1966"]
+    },
+    {
+      "group_name": "Computational Probability and Statistics",
+      "type": "fixed",
+      "courses": ["CIS 2033"]
+    },
+    {
+      "group_name": "Computer Systems and Low-Level Programming",
+      "type": "fixed",
+      "courses": ["CIS 2107"]
+    },
+    {
+      "group_name": "Math Concepts in Computing II",
+      "type": "fixed",
+      "courses": ["CIS 2166"]
+    },
+    {
+      "group_name": "Data Structures",
+      "type": "fixed",
+      "courses": ["CIS 2168"]
+    },
+    {
+      "group_name": "Systems Programming and Operating Systems",
+      "type": "fixed",
+      "courses": ["CIS 3207"]
+    },
+    {
+      "group_name": "Data Structures and Algorithms",
+      "type": "fixed",
+      "courses": ["CIS 3223"]
+    },
+    {
+      "group_name": "Software Design",
+      "type": "fixed",
+      "courses": ["CIS 3296"]
+    },
+    {
+      "group_name": "Capstone",
+      "type": "either_or",
+      "courses": ["CIS 4398", "CIS 4397"]
+    },
+    {
+      "group_name": "CS Electives",
+      "type": "credit_pool",
+      "credits_needed": 15,
+      "courses": [
+        "CIS 3203", "CIS 3211", "CIS 3217", "CIS 3219", "CIS 3242",
+        "CIS 3308", "CIS 3319", "CIS 3441", "CIS 3515", "CIS 3603",
+        "CIS 3605", "CIS 3715", "CIS 4305", "CIS 4307", "CIS 4308",
+        "CIS 4319", "CIS 4324", "CIS 4331", "CIS 4345", "CIS 4350",
+        "CIS 4360", "CIS 4419", "CIS 4515", "CIS 4517", "CIS 4523",
+        "CIS 4524", "CIS 4526", "CIS 4615"
+      ],
+      "substitution_courses" : [ "MATH 2101","MATH 2103", "MATH 2043"]
+
+
+    },
+    {
+      "group_name": "Calculus I",
+      "type": "either_or",
+      "courses": ["MATH 1041", "MATH 1941"]
+    },
+    {
+      "group_name": "Calculus II",
+      "type": "either_or",
+      "courses": ["MATH 1042", "MATH 1942"]
+    },
+{
+  "group_name": "Lab Science Sequence",
+  "type": "sequence",
+  "sequences": {
+    "Biology": ["BIOL 1111", "BIOL 1112"],
+    "Chemistry": ["CHEM 1031", "CHEM 1032"],
+    "Physics": ["PHYS 1061", "PHYS 1062"],
+    "Earth and Environmental Science": ["EES 1004", "EES 1005"]
+  }
+}
+  ]
+}

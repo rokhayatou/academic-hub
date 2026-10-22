@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI
 import sqlite3
 
@@ -5,7 +6,7 @@ app = FastAPI()
 
 
 def get_db_connection():
-    conn = sqlite3.connect("academic_hub.db")
+    conn = sqlite3.connect(os.environ.get("DB_PATH", "academic_hub.db"))
     conn.row_factory = sqlite3.Row
     return conn
 

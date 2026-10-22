@@ -1,3 +1,4 @@
+import os
 import json
 import sqlite3
 
@@ -6,7 +7,7 @@ def load_major(json_path):
         data = json.load(f)
 
     major = data["major"]
-    conn = sqlite3.connect("academic_hub.db")
+    conn = sqlite3.connect(os.environ.get("DB_PATH", "academic_hub.db"))
 
     for group in data["requirement_groups"]:
         cursor = conn.execute(
